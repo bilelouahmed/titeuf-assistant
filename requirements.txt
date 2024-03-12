@@ -1,0 +1,7 @@
+openai-whisper
+sounddevice
+SpeechRecognition
+
+# Text to Speech
+TTS
+pydub
