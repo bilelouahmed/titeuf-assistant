@@ -29,7 +29,7 @@ correspondance = {
 }
 
 def talking(text:str, target_language:str) -> None:
-    wav = tts.tts(text=text, speaker_wav="/Users/bilel/Desktop/test.m4a", language=correspondance[target_language])
+    wav = tts.tts(text=text, language=correspondance[target_language])
 
     audio_bytes = b''.join([np.array(w).astype('float32').tobytes() for w in wav])
 

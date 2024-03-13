@@ -3,3 +3,9 @@ Python voice assistant (based on SpeechRecognition, Whisper and XTTS models) des
 
 # Installation
 
+brew install portaudio
+brew install ffmpeg
+
+# Amélioration
+
+- Mémoire à long terme

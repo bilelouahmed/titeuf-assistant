@@ -1,7 +1,9 @@
-openai
+python-dotenv
+openai==1.13.3
 openai-whisper
 sounddevice
 SpeechRecognition
 TTS
 pydub
 pyaudio
+torch
